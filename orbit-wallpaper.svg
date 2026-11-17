@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<defs>
+ <radialGradient id="bg"><stop stop-color="#50206f"/><stop offset="1" stop-color="#10091f"/></radialGradient>
+ <radialGradient id="planet"><stop stop-color="#c05cff"/><stop offset=".7" stop-color="#61228e"/><stop offset="1" stop-color="#1c1037"/></radialGradient>
+ <linearGradient id="ring"><stop stop-color="#ff8a18"/><stop offset=".5" stop-color="#ffe07a"/><stop offset="1" stop-color="#a52aff"/></linearGradient>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<g fill="#fff" opacity=".7">
+<circle cx="150" cy="130" r="2"/><circle cx="380" cy="300" r="3"/><circle cx="1650" cy="190" r="2"/>
+<circle cx="1420" cy="520" r="2"/><circle cx="900" cy="120" r="2"/><circle cx="1120" cy="840" r="3"/>
+<circle cx="220" cy="790" r="2"/><circle cx="1780" cy="780" r="2"/>
+</g>
+<circle cx="990" cy="520" r="300" fill="url(#planet)"/>
+<ellipse cx="990" cy="520" rx="510" ry="120" fill="none" stroke="url(#ring)" stroke-width="30" transform="rotate(-18 990 520)"/>
+<ellipse cx="990" cy="520" rx="510" ry="120" fill="none" stroke="#ffb23c" stroke-width="5" transform="rotate(-18 990 520)"/>
+<path d="M0 900 Q400 700 750 930 T1500 890 T1920 850 V1080 H0Z" fill="#35134e" opacity=".7"/>
+</svg>
